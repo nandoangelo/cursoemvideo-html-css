@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+
+  <!-- Ícones do FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
+
+  <title>Desafio 005 | Curso de HTML5</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Montserrat', 'Arial', sans-serif;
+      background-image: url('https://images.pexels.com/photos/2098428/pexels-photo-2098428.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+      background-size: cover;
+      background-position: center;
+    }
+    .card-body {
+      width: 600px;
+      margin: 0 auto;
+      margin-top: 4em;
+      box-sizing: border-box;
+      box-shadow: 10px 10px 32px rgba(0,0,0,0.5);
+    }
+    .card-content {
+      background-color: #fff;
+      border-radius: 15px;
+      min-height: 400px;
+      padding: 4em;
+      text-align: center;
+    }
+    p {
+      line-height: 1.7em;
+    }
+    h1, h2, h3 {
+      margin: 1.5em 0;
+    }
+    .img-avat {
+      border-radius: 50%;
+      border: 8px solid #fff;
+      width: 150px;
+      height: 150px;
+      display: block;
+      margin: 0 auto 1em auto;
+    }
+    .social-icons {
+      list-style: none;
+      font-size: 2em;
+    }
+    .social-icons li {
+      display: inline-block;
+      margin: 0 0.5em;
+    }
+    .social-icons li a {
+      text-decoration: none;
+      color: #333;
+      transition: 0.25s ease-in-out all;
+    }
+    .social-icons li a:hover {
+      color:rgb(3, 125, 224);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card-body">
+    <div class="card-content">
+      <!-- Imagem de perfil -->
+      <img src="img/foto-perfil-nandoangelo.png" alt="Foto de Perfil do Fernando Angelo" class="img-avat">
+      <!-- Nome -->
+      <h2>Fernando Angelo</h2>
+      <!-- Apresentação -->
+      <p>
+        Eu sou Fernando Angelo, profissional de T.I. desde 2005, graduado em Sistemas de Informação pela Universidade Católica do Tocantins, fui tutor em turmas de Linguagem de Programação I e dei aulas de informática para cursos profissionalizantes e em workshops, além de palestras em eventos. Confira mais nas minhas dedes sociais:
+      </p>
+      <h3>Minhas redes sociais:</h3>
+      <!-- Redes Sociais -->
+      <ul class="social-icons">
+        <!-- YouTube -->
+        <li>
+          <a href="https://youtube.com/nandoangelo" title="Meu canal">
+            <i class="fa fa-youtube"></i>
+          </a>
+        </li>
+        <!-- GitHub -->
+        <li>
+          <a href="https://github.com/nandoangelo" title="Meus projetos">
+            <i class="fa fa-github"></i>
+          </a>
+        </li>
+        <!-- Instagram -->
+        <li>
+          <a href="https://instagram.com/nandoangelo" title="Meu Instagram">
+            <i class="fa fa-instagram"></i>
+          </a>
+        </li>
+        <!-- LinkedIn -->
+        <li>
+          <a href="https://www.linkedin.com/in/nandoangelo/" title="Meu LinkedIn">
+            <i class="fa fa-linkedin"></i>
+          </a>
+        </li>
+        <!-- Twitter -->
+        <li>
+          <a href="https://twitter.com/nandoangelo" title="Minhas Opiniões">
+            <i class="fa fa-twitter"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
