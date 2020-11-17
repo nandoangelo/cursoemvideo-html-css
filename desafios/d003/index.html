@@ -9,6 +9,21 @@
   
   <link rel="shortcut icon" href="img/favicon.png" type="image/png">
   <title>Desafio 003 | Curso de HTML5</title>
+
+  <style>
+    @keyframes exemplo {
+      0%   {background-color:red; left:0px; top:0px;}
+      25%  {background-color:yellow; left:200px; top:0px;}
+      50%  {background-color:blue; left:200px; top:200px;}
+      75%  {background-color:green; left:0px; top:200px;}
+      100% {background-color:red; left:0px; top:0px;}
+    }
+    .letreiro {
+      width: 150px;
+      position: relative;
+      animation: exemplo 4s infinite;
+    }
+  </style>
 </head>
 <body>
   <h1>Desafio do Mapa Mundi</h1>
@@ -26,6 +41,10 @@
   <img src="img/mapa06.png" alt="Peça 06 do mapa">
   <img src="img/mapa02.png" alt="Peça 02 do mapa">
   <img src="img/mapa04.png" alt="Peça 04 do mapa">
+
+  <div class="letreiro">
+    Meu letreiro digital personalizado
+  </div>
   
 </body>
 </html>
