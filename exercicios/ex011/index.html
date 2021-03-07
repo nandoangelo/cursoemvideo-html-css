@@ -17,6 +17,18 @@
 </head>
 <body>
   <h1>Trabalhando com mídias</h1>
+
+  <h2>Imagem dinâmica</h2>
+  <p> Tente abrir essa página em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho de seu navegador ou mude a orientação do celular, por exemplo.</p>
+  <picture>
+    <!-- Até a largura de 750px use a imagem pequena -->
+    <source media="(max-width: 750px)" srcset="media/img/foto-p.png" type="image/png">
+    <!-- Até a largura de 1050px use a imagem média -->
+    <source media="(max-width: 1050px)" srcset="media/img/foto-m.png" type="image/png"> 
+    <!-- Para telas maiores use a imagem grande -->
+    <img src="media/img/foto-g.png" alt="Imagem dinâmica">
+  </picture>
+
   <h2>Trabalhando com som</h2>
   <p>Vamos criar um podcast?</p>
   <p>Agora vamos inserir e reproduzir áudio usando apenas HTML. Não se esqueça de inserir o atributo <code>controls</code> para que sejam disponibilizados os controles de áudio. Vamos lá?</p>

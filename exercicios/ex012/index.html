@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Exercícios do curso de HTML5 e CSS3 do Guanabara.">
+  <meta name="keywords" content="html css tags"> 
+  <meta name="author" content="Fernando Angelo">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Trabalhando com vídeos</title>
+</head>
+<body>
+  <h1>Inserindo vídeos hospedados localmente</h1>
+  <p>Este vídeo está hospedado em meu próprio servidor.</p>
+
+  <video width="500" height="281" poster="media/img/thumb-fogueira-fullhd.jpg" controls loop>
+    <source src="media/video/fogueira-hd.m4v" type="video/mp4">
+    <source src="media/video/fogueira-hd-web.webm" type="video/webm">
+      <p>Seu navegador não é compatível com esse formato de vídeo.</p>
+  </video>
+
+  <h2>Inserindo vídeos do YouTube</h2>
+  <!-- embed do YouTube -->
+  <iframe width="500" height="281" src="https://www.youtube.com/embed/eF9Qoc6p_4Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  <h2>Inserindo vídeos do Vimeo</h2>
+  <!-- embed do Vimeo -->
+  <iframe src="https://player.vimeo.com/video/197093965?loop=1&color=c9ff23&portrait=0" width="500" height="281" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+ 
+</body>
+</html>
