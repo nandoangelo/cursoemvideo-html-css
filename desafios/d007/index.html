@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Exercícios do curso de HTML5 e CSS3 do Guanabara.">
+  <meta name="keywords" content="html css tags"> 
+  <meta name="author" content="Fernando Angelo">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+  
+  <title>Desafio 007 | Imagem flexível</title>
+</head>
+<body>
+  <h1>Imagem flexível</h1>
+
+  <h2>Vamos expandir o horizonte</h2>
+  <p>Em telas maiores é possível ter uma maior experiência visual. Experimente aumentar e diminuir seu navegador para ver o que acontece.</p>
+  <picture>
+    <!-- Até a largura de 750px use a imagem pequena -->
+    <source media="(max-width: 750px)" srcset="img/paisagem-p.png" type="image/png">
+    <!-- Até a largura de 1250px use a imagem média -->
+    <source media="(max-width: 1250px)" srcset="img/paisagem-m.png" type="image/png"> 
+    <!-- Para telas maiores use a imagem grande -->
+    <img src="img/paisagem-g.png" alt="Mulher em cima de uma montanha e de braços abertos.">
+  </picture>
+
+</body>
+</html>
